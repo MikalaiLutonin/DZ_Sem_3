@@ -46,25 +46,25 @@
 // A (7,-5, 0); B (1,-1,9) -> 11.53
 
 
-Console.Write("Введите координаты X1: ");
-int X1 = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите координаты X1: ");
+// int X1 = int.Parse(Console.ReadLine()!);
 
-Console.Write("Введите координаты Y1: ");
-int Y1 = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите координаты Y1: ");
+// int Y1 = int.Parse(Console.ReadLine()!);
 
-Console.Write("Введите координаты Z1: ");
-int Z1 = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите координаты Z1: ");
+// int Z1 = int.Parse(Console.ReadLine()!);
 
-Console.Write("Введите координаты X2: ");
-int X2 = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите координаты X2: ");
+// int X2 = int.Parse(Console.ReadLine()!);
 
-Console.Write("Введите координаты Y2: ");
-int Y2 = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите координаты Y2: ");
+// int Y2 = int.Parse(Console.ReadLine()!);
 
-Console.Write("Введите координаты Z2: ");
-int Z2 = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите координаты Z2: ");
+// int Z2 = int.Parse(Console.ReadLine()!);
 
-Console.WriteLine($"Расстояние между точками = {Math.Sqrt(Math.Pow((X2 - X1), 2) + Math.Pow((Y2 - Y1), 2) + Math.Pow((Z2 - Z1), 2)):f2}");
+// Console.WriteLine($"Расстояние между точками = {Math.Sqrt(Math.Pow((X2 - X1), 2) + Math.Pow((Y2 - Y1), 2) + Math.Pow((Z2 - Z1), 2)):f2}");
 
 
 
@@ -76,18 +76,18 @@ Console.WriteLine($"Расстояние между точками = {Math.Sqrt(
 // // 5 -> 1, 8, 27, 64, 125
 
 
-// Console.Write("Введите число N: ");
-// int N = int.Parse(Console.ReadLine()!);
+Console.Write("Введите число N: ");
+int N = int.Parse(Console.ReadLine()!);
 
-// for (int i = 1; i <= N; i++)
-// {
-//     if (i < N) 
-//     {
-//     Console.Write($"{Math.Pow(i, 3)}, ");
-//     }
-//      if (i == N) 
-//     {
-//     Console.Write($"{Math.Pow(i, 3)}");
-//     }
-// }
+for (int i = 1; i <= N; i++)
+{
+    if (i < N) 
+    {
+    Console.Write($"{Math.Pow(i, 3)}, ");
+    }
+     if (i == N) 
+    {
+    Console.Write($"{Math.Pow(i, 3)}");
+    }
+}
 
