@@ -5,36 +5,36 @@
 // 23432 -> да
 // 
 
-Console.Write("Введите пятизначное число: ");
-Link1:
-int N = int.Parse(Console.ReadLine()!);
-int[] array = new int[5];
-int i = 0;
+// Console.Write("Введите пятизначное число: ");
+// Link1:
+// int N = int.Parse(Console.ReadLine()!);
+// int[] array = new int[5];
+// int i = 0;
 
-if ((N / 10000 >= 10) || (N / 10000 == 0))                         
-{
-    Console.ForegroundColor = ConsoleColor.Red;
-    Console.Write("Вы ввели НЕ ПЯТИЗНАЧНОЕ число!!!!! ");
-    Console.Write("Введите КОРРЕКТНОЕ ПЯТИЗНАЧНОЕ число: ");
-    Console.ForegroundColor = ConsoleColor.White;
-    goto Link1;                                                     
-}
-else
-{
-    for (i = 4; i >= 0; i--)
-    {
-        array[i] = N % 10;
-        N = N / 10;
-    }
+// if ((N / 10000 >= 10) || (N / 10000 == 0))                         
+// {
+//     Console.ForegroundColor = ConsoleColor.Red;
+//     Console.Write("Вы ввели НЕ ПЯТИЗНАЧНОЕ число!!!!! ");
+//     Console.Write("Введите КОРРЕКТНОЕ ПЯТИЗНАЧНОЕ число: ");
+//     Console.ForegroundColor = ConsoleColor.White;
+//     goto Link1;                                                     
+// }
+// else
+// {
+//     for (i = 4; i >= 0; i--)
+//     {
+//         array[i] = N % 10;
+//         N = N / 10;
+//     }
 
-    if ((array[0] == array[4]) && (array[1] == array[3]))
-    {
-        Console.ForegroundColor = ConsoleColor.Green;
-        Console.Write("ДА!!! Число является полиндромом!");
-        Console.ForegroundColor = ConsoleColor.White;
-    }
-    else { Console.Write("нет:( Это не полиндром"); }
-}
+//     if ((array[0] == array[4]) && (array[1] == array[3]))
+//     {
+//         Console.ForegroundColor = ConsoleColor.Green;
+//         Console.Write("ДА!!! Число является полиндромом!");
+//         Console.ForegroundColor = ConsoleColor.White;
+//     }
+//     else { Console.Write("нет:( Это не полиндром"); }
+// }
 
 
 
@@ -46,25 +46,25 @@ else
 // A (7,-5, 0); B (1,-1,9) -> 11.53
 
 
-// Console.Write("Введите координаты X1: ");
-// int X1 = int.Parse(Console.ReadLine()!);
+Console.Write("Введите координаты X1: ");
+int X1 = int.Parse(Console.ReadLine()!);
 
-// Console.Write("Введите координаты Y1: ");
-// int Y1 = int.Parse(Console.ReadLine()!);
+Console.Write("Введите координаты Y1: ");
+int Y1 = int.Parse(Console.ReadLine()!);
 
-// Console.Write("Введите координаты Z1: ");
-// int Z1 = int.Parse(Console.ReadLine()!);
+Console.Write("Введите координаты Z1: ");
+int Z1 = int.Parse(Console.ReadLine()!);
 
-// Console.Write("Введите координаты X2: ");
-// int X2 = int.Parse(Console.ReadLine()!);
+Console.Write("Введите координаты X2: ");
+int X2 = int.Parse(Console.ReadLine()!);
 
-// Console.Write("Введите координаты Y2: ");
-// int Y2 = int.Parse(Console.ReadLine()!);
+Console.Write("Введите координаты Y2: ");
+int Y2 = int.Parse(Console.ReadLine()!);
 
-// Console.Write("Введите координаты Z2: ");
-// int Z2 = int.Parse(Console.ReadLine()!);
+Console.Write("Введите координаты Z2: ");
+int Z2 = int.Parse(Console.ReadLine()!);
 
-// Console.WriteLine($"Расстояние между точками = {Math.Sqrt(Math.Pow((X2 - X1), 2) + Math.Pow((Y2 - Y1), 2) + Math.Pow((Z2 - Z1), 2)):f2}");
+Console.WriteLine($"Расстояние между точками = {Math.Sqrt(Math.Pow((X2 - X1), 2) + Math.Pow((Y2 - Y1), 2) + Math.Pow((Z2 - Z1), 2)):f2}");
 
 
 
