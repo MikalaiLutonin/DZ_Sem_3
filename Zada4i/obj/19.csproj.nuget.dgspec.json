@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GeekBrains\\C#\\DZ_sem_3\\19\\19.csproj": {}
+    "D:\\GeekBrains\\C#\\DZ_sem_3\\Zada4i\\19.csproj": {}
   },
   "projects": {
-    "D:\\GeekBrains\\C#\\DZ_sem_3\\19\\19.csproj": {
+    "D:\\GeekBrains\\C#\\DZ_sem_3\\Zada4i\\19.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GeekBrains\\C#\\DZ_sem_3\\19\\19.csproj",
+        "projectUniqueName": "D:\\GeekBrains\\C#\\DZ_sem_3\\Zada4i\\19.csproj",
         "projectName": "19",
-        "projectPath": "D:\\GeekBrains\\C#\\DZ_sem_3\\19\\19.csproj",
+        "projectPath": "D:\\GeekBrains\\C#\\DZ_sem_3\\Zada4i\\19.csproj",
         "packagesPath": "C:\\Users\\mluto\\.nuget\\packages\\",
-        "outputPath": "D:\\GeekBrains\\C#\\DZ_sem_3\\19\\obj\\",
+        "outputPath": "D:\\GeekBrains\\C#\\DZ_sem_3\\Zada4i\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mluto\\AppData\\Roaming\\NuGet\\NuGet.Config"
